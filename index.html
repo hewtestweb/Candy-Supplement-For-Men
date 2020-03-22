@@ -1,0 +1,368 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="keywords" content="Candy supplement for men, candyb , catuaba, soloco, hamer">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Candy supplement for men</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        /* Add a gray background color with some padding */
+        body {
+            font-family: Arial;
+            padding: 20px;
+            background: #f1f1f1;
+        }
+
+        /* Header/Blog Title */
+        .header {
+            padding: 30px;
+            font-size: 40px;
+            text-align: center;
+            background-color: #FFA500;
+            color: #FFFACD;
+        }
+
+        /* Create two unequal columns that floats next to each other */
+        /* Left column */
+        .leftcolumn {
+            float: left;
+            width: 40%;
+            margin-left: 10%;
+        }
+
+        /* Right column */
+        .rightcolumn {
+            float: left;
+            width: 40%;
+            padding-left: 20px;
+        }
+
+        /* Fake image */
+        .fakeimg {
+            background-color: #aaa;
+            width: 100%;
+            padding: 20px;
+        }
+
+        /* Add a card effect for articles */
+        .card {
+            background-color: white;
+            padding-top: 0.5px;
+            padding-bottom: 10px;
+            padding-left: 20px;
+            padding-right: 20px;
+            margin-top: 20px;
+        }
+
+        /* Clear floats after the columns */
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        /* Footer */
+        .footer {
+            padding: 20px;
+            text-align: center;
+            background-color: aquamarine;
+            margin-top: 20px;
+            position: -webkit-sticky;
+            position: sticky;
+            bottom:0;
+        }
+
+            .footer:hover {
+                cursor: pointer;
+                background-color: chartreuse;
+            }
+
+        /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+        @media screen and (max-width: 800px) {
+            .leftcolumn, .rightcolumn {
+                width: 100%;
+                padding: 0;
+            }
+        }
+
+        .deliveryText {
+            height: 50px;
+        }
+
+        .freeWord {
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        .oriPrice {
+            text-decoration: line-through;
+            color: grey;
+            font-style: italic;
+        }
+
+        .discountPrice {
+            animation: blinker 1s linear infinite;
+            font-size: 30px;
+            color: red;
+        }
+
+        @keyframes blinker {
+            50% {
+                opacity: 0;
+            }
+        }
+      i{
+          animation: bigger 1s linear infinite;
+      }
+      @keyframes bigger{
+        50%{
+           font-size:22px;
+        }
+        100%{
+           font-size:18px;
+        }
+      }
+        .whatsappMe {
+            height: 30px;
+            text-align: center;
+            display: block;
+            background-color: lightgrey;
+            width: 100%
+        }
+
+            .whatsappMe:hover {
+                background-color: chartreuse;
+            }
+
+        #test {
+            float: none;
+            display: inline-block;
+        }
+
+        #place_btn {
+            position: relative;
+            right: 10%;
+            float: right;
+            margin-top: 8%;
+        }
+
+        .detail_btn {
+            background-color: lawngreen;
+            border: 2px solid #249A63;
+            color: white;
+            font-size: 25px;
+            border-radius: 12px;
+            width: 180px;
+            height: 50px;
+        }
+
+            .detail_btn:hover {
+                background-color: white;
+                border: 2px solid #249A63;
+                color: black;
+                cursor: pointer;
+            }
+
+        .product_name {
+            border-radius: 12px;
+            background-color: gainsboro;
+            height: 50px;
+            position: relative;
+        }
+
+        #hamerword, #catuabaword, #solocoword, #candybword {
+            text-align: left;
+            font-size: 35px;
+            vertical-align: central;
+            line-height: 50px;
+            margin-left: 20px;
+        }
+
+        #clickWhatsapp:hover {
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h2>Candy Supplement For Men</h2>
+    </div>
+
+    <div class="row">
+        <div class="leftcolumn">
+            <div class="card">
+                <div class="product_name">
+                    <p id="candybword">Candy b complex</p>
+                </div>
+                <div class="deliveryText">
+                    <p class="freeWord">Free delivery !!!(Only Malaysia)<img id="delivery_img" src="image/delivery.jpg" height="25" /></p>
+                </div>
+
+                <div class="slide_candyb_container">
+                    <center><img id="slide2" height="200" src="image/candyb1.jpg"></center>
+                </div>
+                <div>
+                    <div id="test">
+                        <p class="oriPrice">RM 160</p>
+                        <p class="discountPrice">RM 120</p>
+                    </div>
+                    <div id="place_btn">
+                        <input type="button" class="detail_btn" onclick="location.href='candybDetail.html';" value="View Details" />
+                    </div>
+                </div>
+                <center><span class="chatNowWord" style="bottom:0;">Chat now <i class="fa fa-hand-o-down" style="font-size:16px;color:dodgerblue"></i></span></center>
+                <div class="whatsappMe">
+                    <p id="clickWhatsapp" onclick="goWhatsapp1()">
+
+                        <img src="image/whatsappicon.png" style="height: 24px;" /> 019-388 3658
+                    </p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="product_name">
+                    <p id="hamerword">Hamer</p>
+                </div>
+                <div class="deliveryText">
+                    <p class="freeWord">Free delivery !!!(Only Malaysia)<img id="delivery_img" src="image/delivery.jpg" height="25" /></p>
+                </div>
+
+                <div class="slide_hamer_container">
+                    <center><img id="slide3" height="200" src="image/hamer1.jpg"></center>
+                </div>
+                <div>
+                    <div id="test">
+                        <p class="oriPrice">RM 225</p>
+                        <p class="discountPrice">RM 180</p>
+                    </div>
+                    <div id="place_btn">
+                        <input type="button" class="detail_btn" onclick="location.href='hamerDetail.html';" value="View Details" />
+                    </div>
+                </div>
+                <center><span class="chatNowWord" style="bottom:0;">Chat now <i class="fa fa-hand-o-down" style="font-size:16px;color:dodgerblue"></i></span></center>
+                <div class="whatsappMe">
+                    <p id="clickWhatsapp" onclick="goWhatsapp3()">
+                        <img src="image/whatsappicon.png" style="height: 20px;" /> 019-388 3658
+                    </p>
+
+                </div>
+            </div>
+            </div>
+        <div class="rightcolumn">
+            <div class="card">
+                <div class="product_name">
+                    <p id="solocoword">Soloco</p>
+                </div>
+                <div class="deliveryText">
+                    <p class="freeWord">Free delivery !!!(Only Malaysia)<img id="delivery_img" src="image/delivery.jpg" height="25" /></p>
+                </div>
+
+                <div class="slide_soloco_container">
+                    <center><img id="slide1" height="200" src="image/soloco4.jpg"></center>
+                </div>
+                <div>
+                    <div id="test">
+                        <p class="oriPrice">RM 160</p>
+                        <p class="discountPrice">RM 120</p>
+                    </div>
+                    <div id="place_btn">
+                        <input type="button" class="detail_btn" onclick="location.href='solocoDetail.html';" value="View Details" />
+                    </div>
+                </div>
+                <center><span class="chatNowWord" style="bottom:0;">Chat now <i class="fa fa-hand-o-down" style="font-size:16px;color:dodgerblue"></i></span></center>
+                <div class="whatsappMe">
+                    <p id="clickWhatsapp" onclick="goWhatsapp2()">
+                        <img src="image/whatsappicon.png" style="height: 20px;" /> 019-388 3658
+                    </p>
+
+                </div>
+            </div>
+            <div class="card">
+                <div class="product_name">
+                    <p id="catuabaword">Catuaba</p>
+                </div>
+                <div class="deliveryText">
+                    <p class="freeWord">Free delivery !!!(Only Malaysia)<img id="delivery_img" src="image/delivery.jpg" height="25" /></p>
+                </div>
+
+                <div class="slide_catuaba_container">
+                    <center><img id="slide4" height="200" src="image/catuaba1.jpg" style="max-width:100%"></center>
+                </div>
+                <div>
+                    <div id="test">
+                        <p class="oriPrice">RM 125</p>
+                        <p class="discountPrice">RM 100</p>
+                    </div>
+                    <div id="place_btn">
+                        <input type="button" class="detail_btn" onclick="location.href='catuabaDetail.html';" value="View Details" />
+                    </div>
+                </div>
+                <center><span class="chatNowWord" style="bottom:0;">Chat now <i class="fa fa-hand-o-down" style="font-size:16px;color:dodgerblue"></i></span></center>
+                <div class="whatsappMe">
+                    <p id="clickWhatsapp" onclick="goWhatsapp4()">
+                        <img src="image/whatsappicon.png" style="height: 20px;" /> 019-388 3658
+                    </p>
+
+                </div>
+            </div>
+        </div>
+            </div>
+
+    <div class="footer" onclick="goWhatsapp()">
+            <h2><img src="image/whatsappicon.png" style="height:30px;" /> 019-388 3658</h2>
+    </div>
+</body>
+</html>
+
+<script>
+    onload = slideShow;
+    function swapImage(id, path) {
+        var el = document.getElementById(id);
+        el.count = el.count || 0;
+        el.src = path[el.count];
+        el.count = (el.count + 1) % path.length;
+    }
+    function slideShow() {
+        setInterval(function () {
+            swapImage('slide1', [
+                "image/soloco4.jpg",
+                "image/soloco6.jpg",
+                "image/soloco8.jpg"
+            ]);
+            swapImage('slide2', [
+                "image/candyb1.jpg",
+                "image/candyb2.jpg",
+                "image/candyb5.jpg"
+            ]);
+            swapImage('slide3', [
+                "image/hamer1.jpg",
+                "image/hamer2.jpg",
+                "image/hamer3.jpg"
+            ]);
+            swapImage('slide4', [
+                "image/catuaba1.jpg",
+                "image/catuaba2.jpg",
+                "image/catuaba3.jpg"
+            ]);
+        }, 1000);
+    }
+    function goWhatsapp() {
+         window.open("https://wa.me/60193883658");
+    }
+    function goWhatsapp1() {
+        window.open("https://wa.me/60193883658?text=Saya%20nak%20beli%20candy%20B%20complex");
+    }
+    function goWhatsapp2() {
+        window.open("https://wa.me/60193883658?text=Saya%20nak%20beli%20soloco");
+    }
+    function goWhatsapp3() {
+        window.open("https://wa.me/60193883658?text=Saya%20nak%20beli%20hamer");
+    }
+    function goWhatsapp4() {
+        window.open("https://wa.me/60193883658?text=Saya%20nak%20beli%20catuaba");
+    }
+  
+</script>

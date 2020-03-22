@@ -1,0 +1,95 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta name="keywords" content="Candy supplement for men, soloco">
+    <title>Candy supplement for men-Soloco</title>
+    <style>
+        body {
+            font-family: Arial;
+            padding: 20px;
+            background: #f1f1f1;
+        }
+
+        /* Header/Blog Title */
+        .header {
+            padding: 30px;
+            font-size: 40px;
+            text-align: center;
+            background-color: #FFA500;
+            color: #FFFACD;
+        }
+        /* Footer */
+        .footer {
+            padding: 20px;
+            text-align: center;
+            background-color: aquamarine;
+            margin-top: 20px;
+            position: -webkit-sticky;
+            position: sticky;
+            bottom:0;
+        }
+
+            .footer:hover {
+                cursor: pointer;
+                background-color: chartreuse;
+            }
+
+        .content {
+            width:100%;
+            padding: 10px;
+            text-align: center;
+        }
+        img{
+            max-width:100%;
+        }
+        .body_img{
+            width:650px;
+            height:auto;
+        }
+        @media screen and (max-width: 800px) {
+            .content {
+                width: 100%;
+                text-align: center;
+            }
+
+            .body_img {
+                width: 100%;
+                height: auto;
+            }
+
+            img {
+                margin: auto;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header" onclick="GoToHomePage()">
+        <h2>Candy Supplement For Men</h2>
+    </div>
+    <div class="content">
+        <img class="body_img" src="image/soloco1.jpg">
+    </div>
+    <div class="content">
+        <img class="body_img" src="image/soloco2.jpg">
+    </div>
+    <div class="content">
+        <img class="body_img" src="image/soloco3.jpg">
+    </div>
+    <div class="content">
+        <img class="body_img" src="image/soloco5.jpg">
+    </div>
+    <div class="footer" onclick="goWhatsapp()">
+        <h2><img src="image/whatsappicon.png" style="height: 30px;" /> 019-388 3658</h2>
+    </div>
+</body>
+</html>
+<script>
+    function goWhatsapp() {
+        window.open("https://wa.me/60193883658?text=Saya%20nak%20beli%20soloco");
+    }
+    function GoToHomePage()
+    {
+        window.location = '/';   
+    }
+</script>
